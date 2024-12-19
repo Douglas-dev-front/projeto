@@ -1,0 +1,256 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px;
+}
+
+header .container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header  nav li {
+    display: inline-flex;
+    margin-right: 20px;
+    transition: 0.0.0,5ms;
+}
+
+header nav li:hover{
+    scale: 1.30;
+    
+}
+
+#Loja h2{   
+    margin-left: 50px;
+}
+
+
+
+header h1,
+.container h2,
+#Loja h2,
+header a{
+        font-family: "Bungee", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.container p,
+form input,
+form textarea,
+form button,
+.todos a{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+header a{
+    color: #fff;
+}
+
+header a:hover{ 
+    color: rgba(255, 27, 45, 1);
+}
+
+section#loja h2{   
+    margin-left: 50px;
+}
+
+.container{
+    margin-left: 50px;
+    display: flex;
+    max-width: 95%;
+    height: auto;
+    width:100%;
+}
+
+
+
+header{
+    background-color: black;
+    color:#fff;
+    padding: 16px 16px;
+    width: 100%;
+}
+
+header  a{    
+    text-decoration: none;
+}
+
+
+.todos img{
+    height:400px;
+    max-width: 100%;
+    cursor: pointer;
+    transition:0.0.0,5ms;
+    filter: drop-shadow(3px 3px 3px  #a9a8b4);
+}
+
+.todos img:hover{
+    scale: 1.05;
+}
+
+.todos{ 
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+
+.todos p{
+    background-color: #1f295c;
+    color: #f6f7fa;
+    width: 110px;
+    margin-top: 9px;
+    font-size: small;
+}
+
+.todos a:hover{
+    scale: 1.10;
+    color:#e21111 ;
+}
+
+
+.pubg,
+.evil-4,
+.left{
+    margin-top: 18px;
+}
+
+
+.brands-list img{
+    height: 24px;
+    margin-left: 15px;
+}
+
+
+.brands-list h2,
+p{
+    margin-left: 15px;
+}
+
+.brands-list li{
+    display: inline;
+    margin-left: 10px;
+
+}
+
+
+.img1{
+    filter: drop-shadow(3px 3px 3px #a9a8b4);
+    margin-bottom: 18px;
+}
+
+section .container p,
+{
+    margin-left:15px;
+}
+
+.form input,
+button,
+form textarea{
+display:block;
+width: 320px;
+margin-bottom:8px;
+padding:8px;
+}
+
+form button{
+    cursor: pointer;
+    transition: 0.0.0,1ms;
+}
+
+form button:hover{
+    scale: 1.1;
+}
+
+form textarea{
+    height: 180px;
+}
+
+.social-links img{
+    height:30px;
+    transition: 0.0.0,5ms;
+}
+
+.social-links img:hover{   
+    scale: 1.30;
+}
+
+.social-links li{
+    margin-left: 30px;
+    display: inline;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+
+#contact .container{
+    display:block;
+}
+
+.all{
+    display:flex;
+    justify-content: space-between;
+}
+
+form textarea{
+    resize:none;
+}
+
+.form h2{  
+margin-top: 5px;    
+    margin-bottom: 20px;
+}
+
+.ct h2{
+    margin-bottom: 9px;
+}
+
+.endereço h2{
+    margin-left: 125px;
+}
+
+
+form button{
+    background-color: rgb(3, 3, 117);
+    color: #fff;
+    border-radius:20px ;
+    border-color: #fff;
+}
+
+
+
+footer .container {
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+}
+
+
+#Loja,
+#Sobre-a-Loja,
+#contact{
+    background-color: #060a1a;
+}
+
+
+#footer{
+    background-color: rgb(0, 0, 0);
+}
+
+.container p{
+    color:#fff;
+}
+
+section h2{
+    color: #fff;
+}
